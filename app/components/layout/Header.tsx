@@ -11,7 +11,7 @@ export async function Header() {
         <header className="px-4 lg:px-6 h-14 flex items-center justify-between border-b">
             <Link href="/" className="flex items-center justify-center">
                 <Image src="/logo/logo_ucatolica.png" alt="Funlam logo" width={90} height={90} />
-                <span className="ml-2 text-lg font-semibold">Ucla Radmap App</span>
+                <span className="ml-2 text-lg font-semibold">Ucla Radmap App.</span>
             </Link>
             <nav className="flex gap-4 sm:gap-6">
                 {['Roadmap', 'Features', 'Pricing', 'About'].map((item) => (
